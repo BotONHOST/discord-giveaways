@@ -105,7 +105,7 @@ exports.defaultManagerOptions = {
  *
  * @property {number?} [winnerCount=this.winnerCount] The number of winners to pick
  * @property {Object} [messages] The messages used in this method
- * @property {string} [messages.congrat=':tada: New winner(s) : {winners}! Congratulations!'] The message used if there are winners
+ * @property {string} [messages.congrat=':tada: Новый победитель : {winners}! Поздравляю!'] The message used if there are winners
  * @property {string} [messages.error='No valid participations, no winners can be chosen!'] The message used if no winner can be choosen
  */
 exports.GiveawayRerollOptions = {};
@@ -117,7 +117,7 @@ exports.GiveawayRerollOptions = {};
 exports.defaultRerollOptions = {
     winnerCount: null,
     messages: {
-        congrat: ':tada: New winner(s) : {winners}! Congratulations!',
+        congrat: ':tada: Новый победитель : {winners}! Поздравляю!',
         error: 'No valid participations, no winners can be chosen!'
     }
 };
